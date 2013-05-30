@@ -90,6 +90,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ctrl_ChuyenBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_ChuyenBan.Designer.cs">
+      <DependentUpon>Ctrl_ChuyenBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_GhepBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_GhepBan.Designer.cs">
+      <DependentUpon>Ctrl_GhepBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_GoiMon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_GoiMon.Designer.cs">
+      <DependentUpon>Ctrl_GoiMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_PhucVu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_PhucVu.Designer.cs">
+      <DependentUpon>Ctrl_PhucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_QLBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLBan.Designer.cs">
+      <DependentUpon>Ctrl_QLBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_QLKhuVuc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLKhuVuc.Designer.cs">
+      <DependentUpon>Ctrl_QLKhuVuc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +134,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ctrl_ChuyenBan.resx">
+      <DependentUpon>Ctrl_ChuyenBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_GhepBan.resx">
+      <DependentUpon>Ctrl_GhepBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_GoiMon.resx">
+      <DependentUpon>Ctrl_GoiMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_PhucVu.resx">
+      <DependentUpon>Ctrl_PhucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLBan.resx">
+      <DependentUpon>Ctrl_QLBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLKhuVuc.resx">
+      <DependentUpon>Ctrl_QLKhuVuc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
