@@ -15,7 +15,10 @@ namespace BUS
             return ThucDonDAO.DanhSachThucDon();
         }
 
-       
+        public static DataTable TraCuuThucDon(ThucDonDTO td)
+        {
+            return ThucDonDAO.TraCuuThucDon(td);
+        }
 
     }
 }

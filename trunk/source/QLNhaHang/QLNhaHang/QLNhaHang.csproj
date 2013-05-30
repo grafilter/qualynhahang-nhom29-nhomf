@@ -126,6 +126,18 @@
     <Compile Include="Ctrl_QLKhuVuc.Designer.cs">
       <DependentUpon>Ctrl_QLKhuVuc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl_QLThucDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLThucDon.Designer.cs">
+      <DependentUpon>Ctrl_QLThucDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_TraCuuThucDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_TraCuuThucDon.Designer.cs">
+      <DependentUpon>Ctrl_TraCuuThucDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +163,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLKhuVuc.resx">
       <DependentUpon>Ctrl_QLKhuVuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLThucDon.resx">
+      <DependentUpon>Ctrl_QLThucDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_TraCuuThucDon.resx">
+      <DependentUpon>Ctrl_TraCuuThucDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

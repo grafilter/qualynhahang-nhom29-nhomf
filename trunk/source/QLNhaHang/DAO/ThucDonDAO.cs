@@ -23,6 +23,42 @@ namespace DAO
             return dt;
         }
 
+        public static DataTable TraCuuThucDon(ThucDonDTO td)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string sql = "select * ";
+            sql += "from THUCDON td,BANGGIA bg,LOAITHUCDON ltd,KHUVUC kv";
+            sql += " where td.MaThucDon=bg.MaThucDon and td.MaLoaiThucDon=ltd.MaLoaiThucDon";
+            sql += " and bg.MaKhuVuc=kv.MaKhuVuc and td.isDel=0 ";
+            if (td.MaThucDon != "")
+            {
+                sql += " and td.MaThucDon='" + td.MaThucDon + "'";
+            }
+            if (td.TenThucDon != "")
+            {
+                sql += " and td.TenThucDon LIKE '%" + td.TenThucDon + "%' ";
+            }
+            if (td.MaKhuVuc > 0)
+            {
+                sql += " and bg.MaKhuVuc=" + td.MaKhuVuc;
+            }
+            if (td.MaLoaiThucDon > 0)
+            {
+                sql += " and td.MaLoaiThucDon=" + td.MaLoaiThucDon;
+            }
+            if (td.GiaTu > 0 && td.GiaDen > 0)
+            {
+                sql += " and bg.DonGia between " + td.GiaTu + " and " + td.GiaDen;
+            }
+
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
         
     }
 }

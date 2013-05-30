@@ -49,6 +49,7 @@
     <Compile Include="DataProvider.cs" />
     <Compile Include="HoaDonDAO.cs" />
     <Compile Include="KhuVucDAO.cs" />
+    <Compile Include="LoaiThucDonDAO.cs" />
     <Compile Include="PhieuGoiMonDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThucDonDAO.cs" />
