@@ -48,6 +48,7 @@
     <Compile Include="BanBUS.cs" />
     <Compile Include="HoaDonBUS.cs" />
     <Compile Include="KhuVucBUS.cs" />
+    <Compile Include="LoaiThucDonBUS.cs" />
     <Compile Include="PhieuGoiMonBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThucDonBUS.cs" />
