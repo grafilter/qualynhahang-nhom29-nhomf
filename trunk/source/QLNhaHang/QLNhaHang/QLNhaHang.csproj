@@ -193,6 +193,12 @@
     <Compile Include="Ctrl_QLDonVi.Designer.cs">
       <DependentUpon>Ctrl_QLDonVi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl_QLHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLHoaDon.Designer.cs">
+      <DependentUpon>Ctrl_QLHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl_QLKhuVuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -276,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLDonVi.resx">
       <DependentUpon>Ctrl_QLDonVi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLHoaDon.resx">
+      <DependentUpon>Ctrl_QLHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLKhuVuc.resx">
       <DependentUpon>Ctrl_QLKhuVuc.cs</DependentUpon>
