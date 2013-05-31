@@ -15,5 +15,6 @@
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
     <ReferencePath>C:\Program Files\Business Objects\Common\2.8\managed\</ReferencePath>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
 </Project>

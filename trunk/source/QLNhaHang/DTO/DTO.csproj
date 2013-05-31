@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BanDTO.cs" />
+    <Compile Include="NhanVienDTO.cs" />
     <Compile Include="PhieuGoiMonDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThucDonDTO.cs" />
