@@ -29,6 +29,16 @@ namespace BUS
             return HoaDonDAO.DoanhThuTheoMonAn(ngay, loai);
         }
 
+        public static DataTable TraCuuHoaDon(DateTime ngaytu, DateTime ngayden)
+        {
+            return HoaDonDAO.TraCuuHoaDon(ngaytu, ngayden);
+        }
+
+        public static DataTable ChiTietHoaDon(int maPhieuGoi)
+        {
+            return HoaDonDAO.ChiTietHoaDon(maPhieuGoi);
+        }
+
        
     }
 }

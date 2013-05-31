@@ -77,5 +77,36 @@ namespace DAO
         }
 
 
+        public static DataTable TraCuuHoaDon(DateTime ngaytu, DateTime ngayden)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_TraCuuHoaDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@NgayTu", SqlDbType.Date).Value = ngaytu.Date;
+            cmd.Parameters.Add("@NgayDen", SqlDbType.Date).Value = ngayden.Date;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public static DataTable ChiTietHoaDon(int maPhieuGoi)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_ChiTietHoaDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaPhieuGoi", SqlDbType.Int).Value = maPhieuGoi;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+
+
     }
 }
