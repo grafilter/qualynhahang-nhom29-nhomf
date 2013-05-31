@@ -90,6 +90,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_data\QLNhaHang.cs">
+      <DependentUpon>QLNhaHang.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_data\QLNhaHang.designer.cs">
+      <DependentUpon>QLNhaHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crpHoaDon.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpHoaDon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpTheoKhuVuc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpTheoKhuVuc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpTheoMonAn.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpTheoMonAn.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpTheoThoiGian.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpTheoThoiGian.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ctrl_BaoCaoDoanhThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_BaoCaoDoanhThu.Designer.cs">
+      <DependentUpon>Ctrl_BaoCaoDoanhThu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl_ChuyenBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -170,6 +207,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="crpHoaDon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpHoaDon.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpTheoKhuVuc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpTheoKhuVuc.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpTheoMonAn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpTheoMonAn.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpTheoThoiGian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpTheoThoiGian.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_BaoCaoDoanhThu.resx">
+      <DependentUpon>Ctrl_BaoCaoDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_ChuyenBan.resx">
       <DependentUpon>Ctrl_ChuyenBan.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,6 +274,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="App_data\QLNhaHang.xsc">
+      <DependentUpon>QLNhaHang.xsd</DependentUpon>
+    </None>
+    <None Include="App_data\QLNhaHang.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNhaHang1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_data\QLNhaHang.xss">
+      <DependentUpon>QLNhaHang.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
