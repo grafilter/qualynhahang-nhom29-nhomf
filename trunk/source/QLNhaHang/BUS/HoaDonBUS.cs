@@ -14,6 +14,21 @@ namespace BUS
             return HoaDonDAO.TinhTien(map, ngaylap, khuyenmai);
         }
 
+        public static DataTable DoanhThuTheoThoiGian(int ngaytu, int ngayden, int loai)
+        {
+            return HoaDonDAO.DoanhThuTheoThoiGian(ngaytu, ngayden, loai);
+        }
+
+        public static DataTable DoanhThuTheoKhuVuc(int ngay, int makv, int loai)
+        {
+            return HoaDonDAO.DoanhThuTheoKhuVuc(ngay, makv, loai);
+        }
+
+        public static DataTable DoanhThuTheoMonAn(int ngay, int loai)
+        {
+            return HoaDonDAO.DoanhThuTheoMonAn(ngay, loai);
+        }
+
        
     }
 }
