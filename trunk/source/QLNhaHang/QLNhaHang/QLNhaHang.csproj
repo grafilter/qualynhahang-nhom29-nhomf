@@ -96,6 +96,12 @@
     <Compile Include="Ctrl_ChuyenBan.Designer.cs">
       <DependentUpon>Ctrl_ChuyenBan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl_DanhSachThucDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_DanhSachThucDon.Designer.cs">
+      <DependentUpon>Ctrl_DanhSachThucDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl_GhepBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -120,11 +126,29 @@
     <Compile Include="Ctrl_QLBan.Designer.cs">
       <DependentUpon>Ctrl_QLBan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl_QLBangGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLBangGia.Designer.cs">
+      <DependentUpon>Ctrl_QLBangGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_QLDonVi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLDonVi.Designer.cs">
+      <DependentUpon>Ctrl_QLDonVi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl_QLKhuVuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Ctrl_QLKhuVuc.Designer.cs">
       <DependentUpon>Ctrl_QLKhuVuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_QLLoaiThucDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLLoaiThucDon.Designer.cs">
+      <DependentUpon>Ctrl_QLLoaiThucDon.cs</DependentUpon>
     </Compile>
     <Compile Include="Ctrl_QLThucDon.cs">
       <SubType>UserControl</SubType>
@@ -149,6 +173,9 @@
     <EmbeddedResource Include="Ctrl_ChuyenBan.resx">
       <DependentUpon>Ctrl_ChuyenBan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_DanhSachThucDon.resx">
+      <DependentUpon>Ctrl_DanhSachThucDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_GhepBan.resx">
       <DependentUpon>Ctrl_GhepBan.cs</DependentUpon>
     </EmbeddedResource>
@@ -161,8 +188,17 @@
     <EmbeddedResource Include="Ctrl_QLBan.resx">
       <DependentUpon>Ctrl_QLBan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLBangGia.resx">
+      <DependentUpon>Ctrl_QLBangGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLDonVi.resx">
+      <DependentUpon>Ctrl_QLDonVi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLKhuVuc.resx">
       <DependentUpon>Ctrl_QLKhuVuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLLoaiThucDon.resx">
+      <DependentUpon>Ctrl_QLLoaiThucDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLThucDon.resx">
       <DependentUpon>Ctrl_QLThucDon.cs</DependentUpon>

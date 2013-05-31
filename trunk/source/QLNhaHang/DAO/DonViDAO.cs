@@ -8,13 +8,13 @@ using DTO;
 
 namespace DAO
 {
-    public class LoaiThucDonDAO
+    public class DonViDAO
     {
-        public static DataTable DanhSachLTD()
+        public static DataTable DanhSachDonVi()
         {
             DataTable dt = new DataTable();
             SqlConnection con = DataProvider.ConnectDB();
-            string procName = "usp_DanhSachLTD";
+            string procName = "usp_DanhSachDonVi";
             SqlCommand cmd = new SqlCommand(procName, con);
             cmd.CommandType = CommandType.StoredProcedure;
             SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -23,40 +23,42 @@ namespace DAO
             return dt;
         }
 
-        public static void ThemLTD(string loaithucdon)
+        public static void ThemDonVi(string tendv)
         {
             SqlConnection con = DataProvider.ConnectDB();
-            string procName = "usp_ThemLTD";
+            string procName = "usp_ThemDonVi";
             SqlCommand cmd = new SqlCommand(procName, con);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@LoaiThucDon", SqlDbType.NVarChar).Value = loaithucdon;
+            cmd.Parameters.Add("@TenDonVi", SqlDbType.NVarChar).Value = tendv;
             cmd.ExecuteNonQuery();
             con.Close();
         }
 
-        public static void SuaLTD(int maltd, string loaithucdon)
+        public static void SuaDonVi(int madv, string tendv)
         {
             SqlConnection con = DataProvider.ConnectDB();
-            string procName = "usp_SuaLTD";
+            string procName = "usp_SuaDonVi";
             SqlCommand cmd = new SqlCommand(procName, con);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@MaLoaiThucDon", SqlDbType.Int).Value = maltd;
-            cmd.Parameters.Add("@LoaiThucDon", SqlDbType.NVarChar).Value = loaithucdon;
+            cmd.Parameters.Add("@MaDonVi", SqlDbType.Int).Value = madv;
+            cmd.Parameters.Add("@TenDonVi", SqlDbType.NVarChar).Value = tendv;
             cmd.ExecuteNonQuery();
             con.Close();
         }
 
 
-        public static void XoaLTD(int maltd)
+        public static void XoaDonVi(int madv)
         {
             SqlConnection con = DataProvider.ConnectDB();
-            string procName = "usp_XoaLTD";
+            string procName = "usp_XoaDonVi";
             SqlCommand cmd = new SqlCommand(procName, con);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@MaLoaiThucDon", SqlDbType.Int).Value = maltd;
+            cmd.Parameters.Add("@MaDonVi", SqlDbType.Int).Value = madv;
             cmd.ExecuteNonQuery();
             con.Close();
         }
+
+        
 
     }
 }
