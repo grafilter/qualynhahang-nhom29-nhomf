@@ -46,7 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BanDAO.cs" />
+    <Compile Include="BangGiaDAO.cs" />
     <Compile Include="DataProvider.cs" />
+    <Compile Include="DonViDAO.cs" />
     <Compile Include="HoaDonDAO.cs" />
     <Compile Include="KhuVucDAO.cs" />
     <Compile Include="LoaiThucDonDAO.cs" />

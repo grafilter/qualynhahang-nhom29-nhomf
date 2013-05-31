@@ -14,6 +14,20 @@ namespace BUS
             return LoaiThucDonDAO.DanhSachLTD();
         }
 
-        
+        public static void ThemLTD(string loaithucdon)
+        {
+            LoaiThucDonDAO.ThemLTD(loaithucdon);
+        }
+
+        public static void SuaLTD(int maltd, string loaithucdon)
+        {
+            LoaiThucDonDAO.SuaLTD(maltd, loaithucdon);
+        }
+
+
+        public static void XoaLTD(int maltd)
+        {
+            LoaiThucDonDAO.XoaLTD(maltd);
+        }
     }
 }

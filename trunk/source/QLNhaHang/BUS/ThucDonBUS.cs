@@ -20,5 +20,21 @@ namespace BUS
             return ThucDonDAO.TraCuuThucDon(td);
         }
 
+        public static void ThemThucDon(ThucDonDTO td)
+        {
+            ThucDonDAO.ThemThucDon(td);
+        }
+
+        public static void SuaThucDon(ThucDonDTO td)
+        {
+            ThucDonDAO.SuaThucDon(td);
+        }
+
+
+        public static void XoaThucDon(string matd)
+        {
+            ThucDonDAO.XoaThucDon(matd);
+        }
+
     }
 }

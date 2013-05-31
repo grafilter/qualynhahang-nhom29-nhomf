@@ -59,6 +59,47 @@ namespace DAO
             return dt;
         }
 
+
+        public static void ThemThucDon(ThucDonDTO td)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_ThemThucDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaThucDon", SqlDbType.VarChar).Value = td.MaThucDon;
+            cmd.Parameters.Add("@TenThucDon", SqlDbType.NVarChar).Value = td.TenThucDon;
+            cmd.Parameters.Add("@MaDonVi", SqlDbType.Int).Value = td.MaDonVi;
+            cmd.Parameters.Add("@MaLoaiThucDon", SqlDbType.Int).Value = td.MaLoaiThucDon;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public static void SuaThucDon(ThucDonDTO td)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_SuaThucDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaThucDon", SqlDbType.VarChar).Value = td.MaThucDon;
+            cmd.Parameters.Add("@TenThucDon", SqlDbType.NVarChar).Value = td.TenThucDon;
+            cmd.Parameters.Add("@MaDonVi", SqlDbType.Int).Value = td.MaDonVi;
+            cmd.Parameters.Add("@MaLoaiThucDon", SqlDbType.Int).Value = td.MaLoaiThucDon;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+
+        public static void XoaThucDon(string matd)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_XoaThucDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaThucDon", SqlDbType.VarChar).Value = matd;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
         
     }
 }

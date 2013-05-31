@@ -42,22 +42,30 @@ namespace QLNhaHang
 
         private void btnDsThucDon_Click(object sender, EventArgs e)
         {
-           
+            Ctrl_DanhSachThucDon c = new Ctrl_DanhSachThucDon();
+            pnThucDon.Controls.Clear();
+            pnThucDon.Controls.Add(c);
         }
 
         private void btnBangGia_Click(object sender, EventArgs e)
         {
-           
+            Ctrl_QLBangGia c = new Ctrl_QLBangGia();
+            pnBangGia.Controls.Clear();
+            pnBangGia.Controls.Add(c);
         }
 
         private void btnDV_Click(object sender, EventArgs e)
         {
-            
+            Ctrl_QLDonVi c = new Ctrl_QLDonVi();
+            pnDV.Controls.Clear();
+            pnDV.Controls.Add(c);
         }
 
         private void btnLTD_Click(object sender, EventArgs e)
         {
-           
+            Ctrl_QLLoaiThucDon c = new Ctrl_QLLoaiThucDon();
+            pnLTD.Controls.Clear();
+            pnLTD.Controls.Add(c);
         }
 
         
