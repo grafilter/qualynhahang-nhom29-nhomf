@@ -100,6 +100,39 @@ namespace DAO
             con.Close();
         }
 
-        
+        public static DataTable ThucDonTamXoa()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_ThucDonTamXoa";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public static void PhucHoiThucDon(string matd)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_PhucHoiThucDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaThucDon", SqlDbType.VarChar).Value = matd;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public static void DelThucDon(string matd)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_DelThucDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaThucDon", SqlDbType.VarChar).Value = matd;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
     }
 }

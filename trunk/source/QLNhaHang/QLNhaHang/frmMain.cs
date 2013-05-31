@@ -31,6 +31,7 @@ namespace QLNhaHang
         Ctrl_BaoCaoDoanhThu cBaoCao;
         Ctrl_HeThong cHeThong;
         Ctrl_QLHoaDon cQLHoaDon;
+        Ctrl_QLDuLieu cQLDuLieu;
 
         private void Dong_CtrlPhucVu(object sender, EventArgs e)
         {
@@ -55,6 +56,11 @@ namespace QLNhaHang
         private void Dong_CtrlQLHoaDon(object sender, EventArgs e)
         {
             this.CloseModalPanel(cQLHoaDon, DevComponents.DotNetBar.Controls.eSlideSide.Left);
+        }
+
+        private void Dong_CtrlQLDuLieu(object sender, EventArgs e)
+        {
+            this.CloseModalPanel(cQLDuLieu, DevComponents.DotNetBar.Controls.eSlideSide.Left);
         }
 
         private void btnPhucVu_Click(object sender, EventArgs e)
@@ -91,6 +97,13 @@ namespace QLNhaHang
             cQLHoaDon = new Ctrl_QLHoaDon();
             cQLHoaDon.Menu_Clicked += Dong_CtrlQLHoaDon;
             this.ShowModalPanel(cQLHoaDon, DevComponents.DotNetBar.Controls.eSlideSide.Left);
+        }
+
+        private void btnQLDuLieu_Click(object sender, EventArgs e)
+        {
+            cQLDuLieu = new Ctrl_QLDuLieu();
+            cQLDuLieu.Menu_Clicked += Dong_CtrlQLDuLieu;
+            this.ShowModalPanel(cQLDuLieu, DevComponents.DotNetBar.Controls.eSlideSide.Left);
         }
 
 

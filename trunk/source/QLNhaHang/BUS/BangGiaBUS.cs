@@ -30,6 +30,21 @@ namespace BUS
             BangGiaDAO.XoaBangGia(mabg);
         }
 
+
+        public static DataTable BangGiaTamXoa()
+        {
+            return BangGiaDAO.BangGiaTamXoa();
+        }
+
+        public static void PhucHoiBangGia(int mabg)
+        {
+            BangGiaDAO.PhucHoiBangGia(mabg);
+        }
+
+        public static void DelBangGia(int mabg)
+        {
+            BangGiaDAO.DelBangGia(mabg);
+        }
         
     }
 }

@@ -58,7 +58,41 @@ namespace DAO
             con.Close();
         }
 
-        
+        public static DataTable DonViTamXoa()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_DonViTamXoa";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public static void PhucHoiDonVi(int madv)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_PhucHoiDonVi";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaDonVi", SqlDbType.Int).Value = madv;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+
+        public static void DelDonVi(int madv)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_DelDonVi";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaDonVi", SqlDbType.Int).Value = madv;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
 
     }
 }

@@ -145,6 +145,12 @@
     <Compile Include="Ctrl_DoiMatKhau.Designer.cs">
       <DependentUpon>Ctrl_DoiMatKhau.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl_DuLieuTamXoa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_DuLieuTamXoa.Designer.cs">
+      <DependentUpon>Ctrl_DuLieuTamXoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl_GhepBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -192,6 +198,12 @@
     </Compile>
     <Compile Include="Ctrl_QLDonVi.Designer.cs">
       <DependentUpon>Ctrl_QLDonVi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_QLDuLieu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLDuLieu.Designer.cs">
+      <DependentUpon>Ctrl_QLDuLieu.cs</DependentUpon>
     </Compile>
     <Compile Include="Ctrl_QLHoaDon.cs">
       <SubType>UserControl</SubType>
@@ -259,6 +271,9 @@
     <EmbeddedResource Include="Ctrl_DoiMatKhau.resx">
       <DependentUpon>Ctrl_DoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_DuLieuTamXoa.resx">
+      <DependentUpon>Ctrl_DuLieuTamXoa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_GhepBan.resx">
       <DependentUpon>Ctrl_GhepBan.cs</DependentUpon>
     </EmbeddedResource>
@@ -282,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLDonVi.resx">
       <DependentUpon>Ctrl_QLDonVi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLDuLieu.resx">
+      <DependentUpon>Ctrl_QLDuLieu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLHoaDon.resx">
       <DependentUpon>Ctrl_QLHoaDon.cs</DependentUpon>

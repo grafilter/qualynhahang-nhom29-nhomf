@@ -58,5 +58,42 @@ namespace DAO
             con.Close();
         }
 
+
+        public static DataTable LTDTamXoa()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_LTDTamXoa";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public static void PhucHoiLTD(int maltd)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_PhucHoiLTD";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaLTD", SqlDbType.Int).Value = maltd;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+
+        public static void DelLTD(int maltd)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_DelLTD";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaLTD", SqlDbType.Int).Value = maltd;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
     }
 }
