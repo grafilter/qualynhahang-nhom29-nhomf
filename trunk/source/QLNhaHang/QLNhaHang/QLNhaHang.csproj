@@ -139,6 +139,12 @@
     <Compile Include="Ctrl_DanhSachThucDon.Designer.cs">
       <DependentUpon>Ctrl_DanhSachThucDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl_DoiMatKhau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_DoiMatKhau.Designer.cs">
+      <DependentUpon>Ctrl_DoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl_GhepBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -150,6 +156,12 @@
     </Compile>
     <Compile Include="Ctrl_GoiMon.Designer.cs">
       <DependentUpon>Ctrl_GoiMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_HeThong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_HeThong.Designer.cs">
+      <DependentUpon>Ctrl_HeThong.cs</DependentUpon>
     </Compile>
     <Compile Include="Ctrl_PhucVu.cs">
       <SubType>UserControl</SubType>
@@ -168,6 +180,12 @@
     </Compile>
     <Compile Include="Ctrl_QLBangGia.Designer.cs">
       <DependentUpon>Ctrl_QLBangGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_QLBoPhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_QLBoPhan.Designer.cs">
+      <DependentUpon>Ctrl_QLBoPhan.cs</DependentUpon>
     </Compile>
     <Compile Include="Ctrl_QLDonVi.cs">
       <SubType>UserControl</SubType>
@@ -232,11 +250,17 @@
     <EmbeddedResource Include="Ctrl_DanhSachThucDon.resx">
       <DependentUpon>Ctrl_DanhSachThucDon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_DoiMatKhau.resx">
+      <DependentUpon>Ctrl_DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_GhepBan.resx">
       <DependentUpon>Ctrl_GhepBan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_GoiMon.resx">
       <DependentUpon>Ctrl_GoiMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_HeThong.resx">
+      <DependentUpon>Ctrl_HeThong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_PhucVu.resx">
       <DependentUpon>Ctrl_PhucVu.cs</DependentUpon>
@@ -246,6 +270,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLBangGia.resx">
       <DependentUpon>Ctrl_QLBangGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_QLBoPhan.resx">
+      <DependentUpon>Ctrl_QLBoPhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_QLDonVi.resx">
       <DependentUpon>Ctrl_QLDonVi.cs</DependentUpon>
@@ -270,6 +297,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -293,6 +323,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
