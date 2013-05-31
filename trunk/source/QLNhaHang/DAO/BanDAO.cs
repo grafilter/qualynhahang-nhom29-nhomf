@@ -176,9 +176,43 @@ namespace DAO
             con.Close();
         }
 
-        
 
 
+        public static DataTable BanTamXoa()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_BanTamXoa";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public static void PhucHoiBan(string mab)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_PhucHoiBan";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaBan", SqlDbType.VarChar).Value = mab;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+
+        public static void DelBan(string mab)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_DelBan";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaBan", SqlDbType.VarChar).Value = mab;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
 
     }
 }

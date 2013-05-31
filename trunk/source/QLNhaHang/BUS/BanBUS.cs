@@ -77,6 +77,21 @@ namespace BUS
             BanDAO.HuyDatBan(map);
         }
 
+        public static DataTable BanTamXoa()
+        {
+            return BanDAO.BanTamXoa();
+        }
+
+        public static void PhucHoiBan(string mab)
+        {
+            BanDAO.PhucHoiBan(mab);
+        }
+
+
+        public static void DelBan(string mab)
+        {
+            BanDAO.DelBan(mab);
+        }
         
 
     }

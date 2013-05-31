@@ -31,7 +31,21 @@ namespace BUS
         }
 
 
-      
+        public static DataTable DonViTamXoa()
+        {
+            return DonViDAO.DonViTamXoa();
+        }
+
+        public static void PhucHoiDonVi(int madv)
+        {
+            DonViDAO.PhucHoiDonVi(madv);
+        }
+
+
+        public static void DelDonVi(int madv)
+        {
+            DonViDAO.DelDonVi(madv);
+        }
 
     }
 }

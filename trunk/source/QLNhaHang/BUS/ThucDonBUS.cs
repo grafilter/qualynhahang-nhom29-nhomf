@@ -36,5 +36,20 @@ namespace BUS
             ThucDonDAO.XoaThucDon(matd);
         }
 
+        public static DataTable ThucDonTamXoa()
+        {
+            return ThucDonDAO.ThucDonTamXoa();
+        }
+
+        public static void PhucHoiThucDon(string matd)
+        {
+            ThucDonDAO.PhucHoiThucDon(matd);
+        }
+
+        public static void DelThucDon(string matd)
+        {
+            ThucDonDAO.DelThucDon(matd);
+        }
+
     }
 }

@@ -30,7 +30,21 @@ namespace BUS
             KhuVucDAO.XoaKhuVuc(makv);
         }
 
-       
 
+        public static DataTable KhuVucTamXoa()
+        {
+            return KhuVucDAO.KhuVucTamXoa();
+        }
+
+        public static void PhucHoiKhuVuc(int makv)
+        {
+            KhuVucDAO.PhucHoiKhuVuc(makv);
+        }
+
+
+        public static void DelKhuVuc(int makv)
+        {
+            KhuVucDAO.DelKhuVuc(makv);
+        }
     }
 }

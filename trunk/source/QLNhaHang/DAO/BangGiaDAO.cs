@@ -62,7 +62,41 @@ namespace DAO
             con.Close();
         }
 
-        
+        public static DataTable BangGiaTamXoa()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_BangGiaTamXoa";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public static void PhucHoiBangGia(int mabg)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_PhucHoiBangGia";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaBangGia", SqlDbType.Int).Value = mabg;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public static void DelBangGia(int mabg)
+        {
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_DelBangGia";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@MaBangGia", SqlDbType.Int).Value = mabg;
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
 
     }
 }

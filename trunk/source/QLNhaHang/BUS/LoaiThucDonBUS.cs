@@ -29,5 +29,22 @@ namespace BUS
         {
             LoaiThucDonDAO.XoaLTD(maltd);
         }
+
+        public static DataTable LTDTamXoa()
+        {
+            return LoaiThucDonDAO.LTDTamXoa();
+        }
+
+        public static void PhucHoiLTD(int maltd)
+        {
+            LoaiThucDonDAO.PhucHoiLTD(maltd);
+        }
+
+
+        public static void DelLTD(int maltd)
+        {
+            LoaiThucDonDAO.DelLTD(maltd);
+        }
+
     }
 }
