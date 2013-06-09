@@ -1,0 +1,5 @@
+﻿Dữ liệu nhập vào phải theo định dạng sau đây:
+MaThucDon: Chữ hoặc số không dấu
+TenThucDon: không có ký hiệu đặc biệt
+MaLoaiThucDon: số (xem phần quản lý thực đơn trong phần mềm để biết MaLoaiThucDon)
+MaDonVi: số (xem phần quản lý thực đơn trong phần mềm để biết MaDonVi)

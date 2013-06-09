@@ -51,5 +51,15 @@ namespace BUS
             ThucDonDAO.DelThucDon(matd);
         }
 
+        public static DataTable XuatThucDon()
+        {
+            return ThucDonDAO.XuatThucDon();
+        }
+
+        public static void NhapThucDon(DataTable dt)
+        {
+            ThucDonDAO.NhapThucDon(dt);
+        }
+
     }
 }

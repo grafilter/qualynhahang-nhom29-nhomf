@@ -134,5 +134,32 @@ namespace DAO
             cmd.ExecuteNonQuery();
             con.Close();
         }
+
+        public static DataTable XuatThucDon()
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = DataProvider.ConnectDB();
+            string procName = "usp_XuatThucDon";
+            SqlCommand cmd = new SqlCommand(procName, con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+            con.Close();
+            return dt;
+        }
+
+        public static void NhapThucDon(DataTable dt)
+        {
+            foreach (DataRow dr in dt.Rows)
+            {
+                ThucDonDTO td = new ThucDonDTO();
+                td.MaThucDon = dr["MaThucDon"].ToString();
+                td.TenThucDon = dr["TenThucDon"].ToString();
+                td.MaLoaiThucDon = int.Parse(dr["MaLoaiThucDon"].ToString());
+                td.MaDonVi = int.Parse(dr["MaDonVi"].ToString());
+                ThemThucDon(td);
+            }
+        }
+
     }
 }

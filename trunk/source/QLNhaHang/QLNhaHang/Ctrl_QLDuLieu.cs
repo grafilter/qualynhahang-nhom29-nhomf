@@ -137,6 +137,55 @@ namespace QLNhaHang
 
         }
 
+        private void btnStrNhap_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog op = new OpenFileDialog();
+            op.Multiselect = false;
+            op.ShowDialog();
+            txtStrNhap.Text = op.FileName;
+        }
+
+        private void btnNhapDuLieu_Click(object sender, EventArgs e)
+        {
+            Microsoft.Office.Interop.Excel.Application app = new Microsoft.Office.Interop.Excel.Application();
+            Microsoft.Office.Interop.Excel.Workbook book = app.Workbooks.Open(txtStrNhap.Text, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
+            DataTable dt = ExcelProvider.ImportToExcel(txtStrNhap.Text);
+            ThucDonBUS.NhapThucDon(dt);
+            book.Close(false, txtStrNhap.Text, null);
+            MessageBoxEx.Show("Nhập dữ liệu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnStrXuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = folderBrowserDialog1.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                txtStrXuat.Text = folderBrowserDialog1.SelectedPath;
+            }
+        }
+
+        private void btnXuatDL_Click_1(object sender, EventArgs e)
+        {
+            DataTable dt = ThucDonBUS.XuatThucDon();
+            ExcelProvider.ExportToExel(dt, "ThucDon.xls", txtStrXuat.Text);
+            MessageBoxEx.Show("Xuất dữ liệu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void Template_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DialogResult result = folderBrowserDialog2.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                string path = folderBrowserDialog2.SelectedPath;
+                string p1 = Path.Combine(path, "ThucDon.xls");
+                string p2 = Path.Combine(path, "LuuY.txt");
+                string strCopy1 = Path.Combine(Application.StartupPath, "Template\\ThucDon.xls");
+                string strCopy2 = Path.Combine(Application.StartupPath, "Template\\LuuY.txt");
+                File.Copy(strCopy1, p1,true);
+                File.Copy(strCopy2, p2,true);
+            }
+        }
+
 
         
 
