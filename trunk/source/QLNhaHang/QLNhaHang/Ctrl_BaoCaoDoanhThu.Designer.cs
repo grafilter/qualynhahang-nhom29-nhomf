@@ -29,24 +29,33 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates1 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates2 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabPanelColorTable superTabPanelColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabPanelColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabPanelItemColorTable superTabPanelItemColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabPanelItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates3 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabPanelColorTable superTabPanelColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabPanelColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabPanelItemColorTable superTabPanelItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabPanelItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates2 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabPanelColorTable superTabPanelColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabPanelColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabPanelItemColorTable superTabPanelItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabPanelItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates1 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ctrl_BaoCaoDoanhThu));
             this.superTabControl2 = new DevComponents.DotNetBar.SuperTabControl();
             this.pnDoanhThuTheoMonAn = new DevComponents.DotNetBar.SuperTabControlPanel();
@@ -93,13 +102,13 @@
             this.requiredFieldValidator2 = new DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.");
             this.Menu = new DevComponents.DotNetBar.LabelX();
             this.superValidator2 = new DevComponents.DotNetBar.Validator.SuperValidator();
+            this.requiredFieldValidator5 = new DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.");
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.highlighter2 = new DevComponents.DotNetBar.Validator.Highlighter();
             this.superValidator3 = new DevComponents.DotNetBar.Validator.SuperValidator();
+            this.requiredFieldValidator6 = new DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.");
             this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.highlighter3 = new DevComponents.DotNetBar.Validator.Highlighter();
-            this.requiredFieldValidator5 = new DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.");
-            this.requiredFieldValidator6 = new DevComponents.DotNetBar.Validator.RequiredFieldValidator("Your error message here.");
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).BeginInit();
             this.superTabControl2.SuspendLayout();
             this.pnDoanhThuTheoMonAn.SuspendLayout();
@@ -132,16 +141,16 @@
             this.superTabControl2.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControl2.ControlBox.MenuBox,
             this.superTabControl2.ControlBox.CloseBox});
-            this.superTabControl2.Controls.Add(this.pnDoanhThuTheoMonAn);
-            this.superTabControl2.Controls.Add(this.pnDoanhThuTheoKhuVuc);
             this.superTabControl2.Controls.Add(this.pnDoanhThuTheoThoiGian);
+            this.superTabControl2.Controls.Add(this.pnDoanhThuTheoKhuVuc);
+            this.superTabControl2.Controls.Add(this.pnDoanhThuTheoMonAn);
             this.superTabControl2.ForeColor = System.Drawing.Color.Black;
             this.superTabControl2.Location = new System.Drawing.Point(0, 35);
             this.superTabControl2.Name = "superTabControl2";
             this.superTabControl2.ReorderTabsEnabled = true;
             this.superTabControl2.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.superTabControl2.SelectedTabIndex = 0;
-            this.superTabControl2.Size = new System.Drawing.Size(800, 515);
+            this.superTabControl2.Size = new System.Drawing.Size(800, 612);
             this.superTabControl2.TabAlignment = DevComponents.DotNetBar.eTabStripAlignment.Left;
             this.superTabControl2.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.superTabControl2.TabIndex = 15;
@@ -160,7 +169,12 @@
             this.pnDoanhThuTheoMonAn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnDoanhThuTheoMonAn.Location = new System.Drawing.Point(136, 0);
             this.pnDoanhThuTheoMonAn.Name = "pnDoanhThuTheoMonAn";
-            this.pnDoanhThuTheoMonAn.Size = new System.Drawing.Size(664, 515);
+            superTabLinearGradientColorTable7.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))))};
+            superTabPanelItemColorTable3.Background = superTabLinearGradientColorTable7;
+            superTabPanelColorTable3.Default = superTabPanelItemColorTable3;
+            this.pnDoanhThuTheoMonAn.PanelColor = superTabPanelColorTable3;
+            this.pnDoanhThuTheoMonAn.Size = new System.Drawing.Size(664, 612);
             this.pnDoanhThuTheoMonAn.TabIndex = 0;
             this.pnDoanhThuTheoMonAn.TabItem = this.btnDTTheoMonAn;
             // 
@@ -171,7 +185,7 @@
             this.crpDTTheoMonAn.Location = new System.Drawing.Point(3, 137);
             this.crpDTTheoMonAn.Name = "crpDTTheoMonAn";
             this.crpDTTheoMonAn.SelectionFormula = "";
-            this.crpDTTheoMonAn.Size = new System.Drawing.Size(664, 378);
+            this.crpDTTheoMonAn.Size = new System.Drawing.Size(664, 472);
             this.crpDTTheoMonAn.TabIndex = 20;
             this.crpDTTheoMonAn.ViewTimeSelectionFormula = "";
             // 
@@ -242,18 +256,18 @@
             this.btnDTTheoMonAn.GlobalItem = false;
             this.btnDTTheoMonAn.Name = "btnDTTheoMonAn";
             this.btnDTTheoMonAn.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable8.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))))};
-            superTabItemStateColorTable1.Background = superTabLinearGradientColorTable1;
-            superTabItemStateColorTable1.Text = System.Drawing.Color.Black;
-            superTabColorStates1.Normal = superTabItemStateColorTable1;
-            superTabLinearGradientColorTable2.Colors = new System.Drawing.Color[] {
+            superTabItemStateColorTable5.Background = superTabLinearGradientColorTable8;
+            superTabItemStateColorTable5.Text = System.Drawing.Color.Black;
+            superTabColorStates3.Normal = superTabItemStateColorTable5;
+            superTabLinearGradientColorTable9.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))))};
-            superTabItemStateColorTable2.Background = superTabLinearGradientColorTable2;
-            superTabItemStateColorTable2.Text = System.Drawing.Color.Black;
-            superTabColorStates1.Selected = superTabItemStateColorTable2;
-            superTabItemColorTable1.Left = superTabColorStates1;
-            this.btnDTTheoMonAn.TabColor = superTabItemColorTable1;
+            superTabItemStateColorTable6.Background = superTabLinearGradientColorTable9;
+            superTabItemStateColorTable6.Text = System.Drawing.Color.Black;
+            superTabColorStates3.Selected = superTabItemStateColorTable6;
+            superTabItemColorTable3.Left = superTabColorStates3;
+            this.btnDTTheoMonAn.TabColor = superTabItemColorTable3;
             this.btnDTTheoMonAn.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDTTheoMonAn.Text = "Doanh Thu <br/>\r\nTheo Món Ăn";
             this.btnDTTheoMonAn.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
@@ -269,7 +283,12 @@
             this.pnDoanhThuTheoKhuVuc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnDoanhThuTheoKhuVuc.Location = new System.Drawing.Point(136, 0);
             this.pnDoanhThuTheoKhuVuc.Name = "pnDoanhThuTheoKhuVuc";
-            this.pnDoanhThuTheoKhuVuc.Size = new System.Drawing.Size(664, 515);
+            superTabLinearGradientColorTable4.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))))};
+            superTabPanelItemColorTable2.Background = superTabLinearGradientColorTable4;
+            superTabPanelColorTable2.Default = superTabPanelItemColorTable2;
+            this.pnDoanhThuTheoKhuVuc.PanelColor = superTabPanelColorTable2;
+            this.pnDoanhThuTheoKhuVuc.Size = new System.Drawing.Size(664, 612);
             this.pnDoanhThuTheoKhuVuc.TabIndex = 0;
             this.pnDoanhThuTheoKhuVuc.TabItem = this.btnDTTheoKhuVuc;
             // 
@@ -280,7 +299,7 @@
             this.crpDTTheoKhuVuc.Location = new System.Drawing.Point(-3, 134);
             this.crpDTTheoKhuVuc.Name = "crpDTTheoKhuVuc";
             this.crpDTTheoKhuVuc.SelectionFormula = "";
-            this.crpDTTheoKhuVuc.Size = new System.Drawing.Size(667, 381);
+            this.crpDTTheoKhuVuc.Size = new System.Drawing.Size(667, 478);
             this.crpDTTheoKhuVuc.TabIndex = 16;
             this.crpDTTheoKhuVuc.ViewTimeSelectionFormula = "";
             // 
@@ -378,14 +397,14 @@
             this.btnDTTheoKhuVuc.GlobalItem = false;
             this.btnDTTheoKhuVuc.Name = "btnDTTheoKhuVuc";
             this.btnDTTheoKhuVuc.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable3.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable5.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.Red};
-            superTabItemStateColorTable3.Background = superTabLinearGradientColorTable3;
+            superTabItemStateColorTable3.Background = superTabLinearGradientColorTable5;
             superTabItemStateColorTable3.Text = System.Drawing.Color.Black;
             superTabColorStates2.Normal = superTabItemStateColorTable3;
-            superTabLinearGradientColorTable4.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable6.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.Red};
-            superTabItemStateColorTable4.Background = superTabLinearGradientColorTable4;
+            superTabItemStateColorTable4.Background = superTabLinearGradientColorTable6;
             superTabItemStateColorTable4.Text = System.Drawing.Color.Black;
             superTabColorStates2.Selected = superTabItemStateColorTable4;
             superTabItemColorTable2.Left = superTabColorStates2;
@@ -406,7 +425,12 @@
             this.pnDoanhThuTheoThoiGian.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnDoanhThuTheoThoiGian.Location = new System.Drawing.Point(136, 0);
             this.pnDoanhThuTheoThoiGian.Name = "pnDoanhThuTheoThoiGian";
-            this.pnDoanhThuTheoThoiGian.Size = new System.Drawing.Size(664, 515);
+            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))))};
+            superTabPanelItemColorTable1.Background = superTabLinearGradientColorTable1;
+            superTabPanelColorTable1.Default = superTabPanelItemColorTable1;
+            this.pnDoanhThuTheoThoiGian.PanelColor = superTabPanelColorTable1;
+            this.pnDoanhThuTheoThoiGian.Size = new System.Drawing.Size(664, 612);
             this.pnDoanhThuTheoThoiGian.TabIndex = 1;
             this.pnDoanhThuTheoThoiGian.TabItem = this.btnDTTheoThoiGian;
             // 
@@ -449,7 +473,7 @@
             this.crpDTTheoThoiGian.Location = new System.Drawing.Point(0, 156);
             this.crpDTTheoThoiGian.Name = "crpDTTheoThoiGian";
             this.crpDTTheoThoiGian.SelectionFormula = "";
-            this.crpDTTheoThoiGian.Size = new System.Drawing.Size(664, 356);
+            this.crpDTTheoThoiGian.Size = new System.Drawing.Size(664, 456);
             this.crpDTTheoThoiGian.TabIndex = 6;
             this.crpDTTheoThoiGian.ViewTimeSelectionFormula = "";
             // 
@@ -533,18 +557,18 @@
             this.btnDTTheoThoiGian.GlobalItem = false;
             this.btnDTTheoThoiGian.Name = "btnDTTheoThoiGian";
             this.btnDTTheoThoiGian.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable5.Colors = new System.Drawing.Color[] {
+            superTabLinearGradientColorTable2.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.Yellow};
-            superTabItemStateColorTable5.Background = superTabLinearGradientColorTable5;
-            superTabItemStateColorTable5.Text = System.Drawing.Color.Black;
-            superTabColorStates3.Normal = superTabItemStateColorTable5;
-            superTabLinearGradientColorTable6.Colors = new System.Drawing.Color[] {
+            superTabItemStateColorTable1.Background = superTabLinearGradientColorTable2;
+            superTabItemStateColorTable1.Text = System.Drawing.Color.Black;
+            superTabColorStates1.Normal = superTabItemStateColorTable1;
+            superTabLinearGradientColorTable3.Colors = new System.Drawing.Color[] {
         System.Drawing.Color.Yellow};
-            superTabItemStateColorTable6.Background = superTabLinearGradientColorTable6;
-            superTabItemStateColorTable6.Text = System.Drawing.Color.Black;
-            superTabColorStates3.Selected = superTabItemStateColorTable6;
-            superTabItemColorTable3.Left = superTabColorStates3;
-            this.btnDTTheoThoiGian.TabColor = superTabItemColorTable3;
+            superTabItemStateColorTable2.Background = superTabLinearGradientColorTable3;
+            superTabItemStateColorTable2.Text = System.Drawing.Color.Black;
+            superTabColorStates1.Selected = superTabItemStateColorTable2;
+            superTabItemColorTable1.Left = superTabColorStates1;
+            this.btnDTTheoThoiGian.TabColor = superTabItemColorTable1;
             this.btnDTTheoThoiGian.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDTTheoThoiGian.Text = "Doanh Thu<br/>\r\nTheo Thời Gian";
             this.btnDTTheoThoiGian.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
@@ -607,6 +631,11 @@
             this.superValidator2.ErrorProvider = this.errorProvider2;
             this.superValidator2.Highlighter = this.highlighter2;
             // 
+            // requiredFieldValidator5
+            // 
+            this.requiredFieldValidator5.ErrorMessage = "Your error message here.";
+            this.requiredFieldValidator5.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
+            // 
             // errorProvider2
             // 
             this.errorProvider2.ContainerControl = this;
@@ -622,6 +651,11 @@
             this.superValidator3.ErrorProvider = this.errorProvider3;
             this.superValidator3.Highlighter = this.highlighter3;
             // 
+            // requiredFieldValidator6
+            // 
+            this.requiredFieldValidator6.ErrorMessage = "Your error message here.";
+            this.requiredFieldValidator6.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
+            // 
             // errorProvider3
             // 
             this.errorProvider3.ContainerControl = this;
@@ -631,16 +665,6 @@
             // 
             this.highlighter3.ContainerControl = this;
             // 
-            // requiredFieldValidator5
-            // 
-            this.requiredFieldValidator5.ErrorMessage = "Your error message here.";
-            this.requiredFieldValidator5.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
-            // 
-            // requiredFieldValidator6
-            // 
-            this.requiredFieldValidator6.ErrorMessage = "Your error message here.";
-            this.requiredFieldValidator6.HighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Red;
-            // 
             // Ctrl_BaoCaoDoanhThu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -648,7 +672,7 @@
             this.Controls.Add(this.Menu);
             this.Controls.Add(this.superTabControl2);
             this.Name = "Ctrl_BaoCaoDoanhThu";
-            this.Size = new System.Drawing.Size(800, 550);
+            this.Size = new System.Drawing.Size(800, 650);
             this.Load += new System.EventHandler(this.Ctrl_BaoCaoDoanhThu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).EndInit();
             this.superTabControl2.ResumeLayout(false);

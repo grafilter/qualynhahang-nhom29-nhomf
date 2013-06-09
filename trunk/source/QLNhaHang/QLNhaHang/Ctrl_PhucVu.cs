@@ -32,7 +32,7 @@ namespace QLNhaHang
         private void uPhucVu_Load(object sender, EventArgs e)
         {
             DanhSachBan();
-
+            labelX2.ForeColor = Color.Red;
         }
 
         private string TinhTrangBan(int TT)

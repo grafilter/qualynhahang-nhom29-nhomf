@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ctrl_QLThucDon));
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates4 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates1 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates2 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
@@ -47,6 +47,18 @@
             DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates4 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates8 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable15 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable15 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable16 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable16 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates5 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
@@ -59,38 +71,26 @@
             DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable12 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable12 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates1 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates8 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable15 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable15 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable16 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable superTabLinearGradientColorTable16 = new DevComponents.DotNetBar.Rendering.SuperTabLinearGradientColorTable();
             this.Menu = new DevComponents.DotNetBar.LabelX();
             this.superTabControl2 = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.superTabItem3 = new DevComponents.DotNetBar.SuperTabItem();
-            this.pnTraCuu = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.btnTraCuu = new DevComponents.DotNetBar.SuperTabItem();
+            this.pnLTD = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.btnLTD = new DevComponents.DotNetBar.SuperTabItem();
+            this.pnDV = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.btnDV = new DevComponents.DotNetBar.SuperTabItem();
             this.pnBangGia = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.btnBangGia = new DevComponents.DotNetBar.SuperTabItem();
             this.pnThucDon = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.btnDsThucDon = new DevComponents.DotNetBar.SuperTabItem();
+            this.pnTraCuu = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.btnTraCuu = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.superTabItem3 = new DevComponents.DotNetBar.SuperTabItem();
             this.pnDonVi = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.btnDonVi = new DevComponents.DotNetBar.SuperTabItem();
             this.btnLoaiThucDon = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.superTabItem2 = new DevComponents.DotNetBar.SuperTabItem();
             this.btn = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.btnDV = new DevComponents.DotNetBar.SuperTabItem();
-            this.pnDV = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.btnLTD = new DevComponents.DotNetBar.SuperTabItem();
-            this.pnLTD = new DevComponents.DotNetBar.SuperTabControlPanel();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).BeginInit();
             this.superTabControl2.SuspendLayout();
             this.SuspendLayout();
@@ -130,18 +130,18 @@
             this.superTabControl2.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControl2.ControlBox.MenuBox,
             this.superTabControl2.ControlBox.CloseBox});
+            this.superTabControl2.Controls.Add(this.pnTraCuu);
             this.superTabControl2.Controls.Add(this.pnLTD);
             this.superTabControl2.Controls.Add(this.pnDV);
             this.superTabControl2.Controls.Add(this.pnBangGia);
             this.superTabControl2.Controls.Add(this.pnThucDon);
-            this.superTabControl2.Controls.Add(this.pnTraCuu);
             this.superTabControl2.ForeColor = System.Drawing.Color.Black;
             this.superTabControl2.Location = new System.Drawing.Point(0, 41);
             this.superTabControl2.Name = "superTabControl2";
             this.superTabControl2.ReorderTabsEnabled = true;
             this.superTabControl2.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.superTabControl2.SelectedTabIndex = 0;
-            this.superTabControl2.Size = new System.Drawing.Size(800, 492);
+            this.superTabControl2.Size = new System.Drawing.Size(800, 605);
             this.superTabControl2.TabAlignment = DevComponents.DotNetBar.eTabStripAlignment.Left;
             this.superTabControl2.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.superTabControl2.TabIndex = 64;
@@ -152,6 +152,166 @@
             this.btnDV,
             this.btnLTD});
             this.superTabControl2.Text = "superTabControl2";
+            // 
+            // pnLTD
+            // 
+            this.pnLTD.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnLTD.Location = new System.Drawing.Point(130, 0);
+            this.pnLTD.Name = "pnLTD";
+            this.pnLTD.Size = new System.Drawing.Size(670, 605);
+            this.pnLTD.TabIndex = 3;
+            this.pnLTD.TabItem = this.btnLTD;
+            // 
+            // btnLTD
+            // 
+            this.btnLTD.AttachedControl = this.pnLTD;
+            this.btnLTD.GlobalItem = false;
+            this.btnLTD.Name = "btnLTD";
+            this.btnLTD.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))))};
+            superTabItemStateColorTable1.Background = superTabLinearGradientColorTable1;
+            superTabItemStateColorTable1.Text = System.Drawing.Color.White;
+            superTabColorStates1.Normal = superTabItemStateColorTable1;
+            superTabLinearGradientColorTable2.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))))};
+            superTabItemStateColorTable2.Background = superTabLinearGradientColorTable2;
+            superTabItemStateColorTable2.Text = System.Drawing.Color.White;
+            superTabColorStates1.Selected = superTabItemStateColorTable2;
+            superTabItemColorTable1.Left = superTabColorStates1;
+            this.btnLTD.TabColor = superTabItemColorTable1;
+            this.btnLTD.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLTD.Text = "Loại Thực Đơn<br/>\r\n&nbsp;";
+            this.btnLTD.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            this.btnLTD.Click += new System.EventHandler(this.btnLTD_Click);
+            // 
+            // pnDV
+            // 
+            this.pnDV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnDV.Location = new System.Drawing.Point(130, 0);
+            this.pnDV.Name = "pnDV";
+            this.pnDV.Size = new System.Drawing.Size(670, 605);
+            this.pnDV.TabIndex = 2;
+            this.pnDV.TabItem = this.btnDV;
+            // 
+            // btnDV
+            // 
+            this.btnDV.AttachedControl = this.pnDV;
+            this.btnDV.GlobalItem = false;
+            this.btnDV.Name = "btnDV";
+            this.btnDV.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            superTabLinearGradientColorTable3.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.Purple};
+            superTabItemStateColorTable3.Background = superTabLinearGradientColorTable3;
+            superTabItemStateColorTable3.Text = System.Drawing.Color.White;
+            superTabColorStates2.Normal = superTabItemStateColorTable3;
+            superTabLinearGradientColorTable4.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.Purple};
+            superTabItemStateColorTable4.Background = superTabLinearGradientColorTable4;
+            superTabItemStateColorTable4.Text = System.Drawing.Color.White;
+            superTabColorStates2.Selected = superTabItemStateColorTable4;
+            superTabItemColorTable2.Left = superTabColorStates2;
+            this.btnDV.TabColor = superTabItemColorTable2;
+            this.btnDV.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDV.Text = "Đơn Vị<br/>\r\n&nbsp;";
+            this.btnDV.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            this.btnDV.Click += new System.EventHandler(this.btnDV_Click);
+            // 
+            // pnBangGia
+            // 
+            this.pnBangGia.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnBangGia.Location = new System.Drawing.Point(130, 0);
+            this.pnBangGia.Name = "pnBangGia";
+            this.pnBangGia.Size = new System.Drawing.Size(670, 605);
+            this.pnBangGia.TabIndex = 0;
+            this.pnBangGia.TabItem = this.btnBangGia;
+            // 
+            // btnBangGia
+            // 
+            this.btnBangGia.AttachedControl = this.pnBangGia;
+            this.btnBangGia.GlobalItem = false;
+            this.btnBangGia.Name = "btnBangGia";
+            this.btnBangGia.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            superTabLinearGradientColorTable5.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))))};
+            superTabItemStateColorTable5.Background = superTabLinearGradientColorTable5;
+            superTabItemStateColorTable5.Text = System.Drawing.Color.White;
+            superTabColorStates3.Normal = superTabItemStateColorTable5;
+            superTabLinearGradientColorTable6.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))))};
+            superTabItemStateColorTable6.Background = superTabLinearGradientColorTable6;
+            superTabItemStateColorTable6.Text = System.Drawing.Color.White;
+            superTabColorStates3.Selected = superTabItemStateColorTable6;
+            superTabItemColorTable3.Left = superTabColorStates3;
+            this.btnBangGia.TabColor = superTabItemColorTable3;
+            this.btnBangGia.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBangGia.Text = "Bảng Giá<br/>\r\n&nbsp;";
+            this.btnBangGia.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            this.btnBangGia.Click += new System.EventHandler(this.btnBangGia_Click);
+            // 
+            // pnThucDon
+            // 
+            this.pnThucDon.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnThucDon.Location = new System.Drawing.Point(130, 0);
+            this.pnThucDon.Name = "pnThucDon";
+            this.pnThucDon.Size = new System.Drawing.Size(670, 605);
+            this.pnThucDon.TabIndex = 0;
+            this.pnThucDon.TabItem = this.btnDsThucDon;
+            // 
+            // btnDsThucDon
+            // 
+            this.btnDsThucDon.AttachedControl = this.pnThucDon;
+            this.btnDsThucDon.GlobalItem = false;
+            this.btnDsThucDon.Name = "btnDsThucDon";
+            this.btnDsThucDon.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            superTabLinearGradientColorTable7.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.Fuchsia};
+            superTabItemStateColorTable7.Background = superTabLinearGradientColorTable7;
+            superTabItemStateColorTable7.Text = System.Drawing.Color.White;
+            superTabColorStates4.Normal = superTabItemStateColorTable7;
+            superTabLinearGradientColorTable8.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.Fuchsia};
+            superTabItemStateColorTable8.Background = superTabLinearGradientColorTable8;
+            superTabItemStateColorTable8.Text = System.Drawing.Color.White;
+            superTabColorStates4.Selected = superTabItemStateColorTable8;
+            superTabItemColorTable4.Left = superTabColorStates4;
+            this.btnDsThucDon.TabColor = superTabItemColorTable4;
+            this.btnDsThucDon.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDsThucDon.Text = "Danh Sách <br/>\r\nThực Đơn";
+            this.btnDsThucDon.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            this.btnDsThucDon.Click += new System.EventHandler(this.btnDsThucDon_Click);
+            // 
+            // pnTraCuu
+            // 
+            this.pnTraCuu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnTraCuu.Location = new System.Drawing.Point(130, 0);
+            this.pnTraCuu.Name = "pnTraCuu";
+            this.pnTraCuu.Size = new System.Drawing.Size(670, 605);
+            this.pnTraCuu.TabIndex = 1;
+            this.pnTraCuu.TabItem = this.btnTraCuu;
+            // 
+            // btnTraCuu
+            // 
+            this.btnTraCuu.AttachedControl = this.pnTraCuu;
+            this.btnTraCuu.GlobalItem = false;
+            this.btnTraCuu.Name = "btnTraCuu";
+            this.btnTraCuu.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            superTabLinearGradientColorTable15.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))))};
+            superTabItemStateColorTable15.Background = superTabLinearGradientColorTable15;
+            superTabItemStateColorTable15.Text = System.Drawing.Color.White;
+            superTabColorStates8.Normal = superTabItemStateColorTable15;
+            superTabLinearGradientColorTable16.Colors = new System.Drawing.Color[] {
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))))};
+            superTabItemStateColorTable16.Background = superTabLinearGradientColorTable16;
+            superTabItemStateColorTable16.Text = System.Drawing.Color.White;
+            superTabColorStates8.Selected = superTabItemStateColorTable16;
+            superTabItemColorTable8.Left = superTabColorStates8;
+            this.btnTraCuu.TabColor = superTabItemColorTable8;
+            this.btnTraCuu.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTraCuu.Text = "Tra Cứu<br/>\r\nThực Đơn";
+            this.btnTraCuu.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            this.btnTraCuu.Click += new System.EventHandler(this.btnTraCuu_Click);
             // 
             // superTabControlPanel2
             // 
@@ -168,102 +328,6 @@
             this.superTabItem3.GlobalItem = false;
             this.superTabItem3.Name = "superTabItem3";
             this.superTabItem3.Text = "superTabItem3";
-            // 
-            // pnTraCuu
-            // 
-            this.pnTraCuu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnTraCuu.Location = new System.Drawing.Point(130, 0);
-            this.pnTraCuu.Name = "pnTraCuu";
-            this.pnTraCuu.Size = new System.Drawing.Size(670, 492);
-            this.pnTraCuu.TabIndex = 1;
-            this.pnTraCuu.TabItem = this.btnTraCuu;
-            // 
-            // btnTraCuu
-            // 
-            this.btnTraCuu.AttachedControl = this.pnTraCuu;
-            this.btnTraCuu.GlobalItem = false;
-            this.btnTraCuu.Name = "btnTraCuu";
-            this.btnTraCuu.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable7.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))))};
-            superTabItemStateColorTable7.Background = superTabLinearGradientColorTable7;
-            superTabItemStateColorTable7.Text = System.Drawing.Color.White;
-            superTabColorStates4.Normal = superTabItemStateColorTable7;
-            superTabLinearGradientColorTable8.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))))};
-            superTabItemStateColorTable8.Background = superTabLinearGradientColorTable8;
-            superTabItemStateColorTable8.Text = System.Drawing.Color.White;
-            superTabColorStates4.Selected = superTabItemStateColorTable8;
-            superTabItemColorTable4.Left = superTabColorStates4;
-            this.btnTraCuu.TabColor = superTabItemColorTable4;
-            this.btnTraCuu.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTraCuu.Text = "Tra Cứu<br/>\r\nThực Đơn";
-            this.btnTraCuu.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
-            this.btnTraCuu.Click += new System.EventHandler(this.btnTraCuu_Click);
-            // 
-            // pnBangGia
-            // 
-            this.pnBangGia.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnBangGia.Location = new System.Drawing.Point(130, 0);
-            this.pnBangGia.Name = "pnBangGia";
-            this.pnBangGia.Size = new System.Drawing.Size(670, 492);
-            this.pnBangGia.TabIndex = 0;
-            this.pnBangGia.TabItem = this.btnBangGia;
-            // 
-            // btnBangGia
-            // 
-            this.btnBangGia.AttachedControl = this.pnBangGia;
-            this.btnBangGia.GlobalItem = false;
-            this.btnBangGia.Name = "btnBangGia";
-            this.btnBangGia.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable3.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))))};
-            superTabItemStateColorTable3.Background = superTabLinearGradientColorTable3;
-            superTabItemStateColorTable3.Text = System.Drawing.Color.White;
-            superTabColorStates2.Normal = superTabItemStateColorTable3;
-            superTabLinearGradientColorTable4.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))))};
-            superTabItemStateColorTable4.Background = superTabLinearGradientColorTable4;
-            superTabItemStateColorTable4.Text = System.Drawing.Color.White;
-            superTabColorStates2.Selected = superTabItemStateColorTable4;
-            superTabItemColorTable2.Left = superTabColorStates2;
-            this.btnBangGia.TabColor = superTabItemColorTable2;
-            this.btnBangGia.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBangGia.Text = "Bảng Giá<br/>\r\n&nbsp;";
-            this.btnBangGia.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
-            this.btnBangGia.Click += new System.EventHandler(this.btnBangGia_Click);
-            // 
-            // pnThucDon
-            // 
-            this.pnThucDon.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnThucDon.Location = new System.Drawing.Point(130, 0);
-            this.pnThucDon.Name = "pnThucDon";
-            this.pnThucDon.Size = new System.Drawing.Size(670, 492);
-            this.pnThucDon.TabIndex = 0;
-            this.pnThucDon.TabItem = this.btnDsThucDon;
-            // 
-            // btnDsThucDon
-            // 
-            this.btnDsThucDon.AttachedControl = this.pnThucDon;
-            this.btnDsThucDon.GlobalItem = false;
-            this.btnDsThucDon.Name = "btnDsThucDon";
-            this.btnDsThucDon.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable5.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.Fuchsia};
-            superTabItemStateColorTable5.Background = superTabLinearGradientColorTable5;
-            superTabItemStateColorTable5.Text = System.Drawing.Color.White;
-            superTabColorStates3.Normal = superTabItemStateColorTable5;
-            superTabLinearGradientColorTable6.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.Fuchsia};
-            superTabItemStateColorTable6.Background = superTabLinearGradientColorTable6;
-            superTabItemStateColorTable6.Text = System.Drawing.Color.White;
-            superTabColorStates3.Selected = superTabItemStateColorTable6;
-            superTabItemColorTable3.Left = superTabColorStates3;
-            this.btnDsThucDon.TabColor = superTabItemColorTable3;
-            this.btnDsThucDon.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDsThucDon.Text = "Danh Sách <br/>\r\nThực Đơn";
-            this.btnDsThucDon.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
-            this.btnDsThucDon.Click += new System.EventHandler(this.btnDsThucDon_Click);
             // 
             // pnDonVi
             // 
@@ -343,70 +407,6 @@
             this.superTabControlPanel1.TabIndex = 2;
             this.superTabControlPanel1.TabItem = this.btn;
             // 
-            // btnDV
-            // 
-            this.btnDV.AttachedControl = this.pnDV;
-            this.btnDV.GlobalItem = false;
-            this.btnDV.Name = "btnDV";
-            this.btnDV.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable1.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.Purple};
-            superTabItemStateColorTable1.Background = superTabLinearGradientColorTable1;
-            superTabItemStateColorTable1.Text = System.Drawing.Color.White;
-            superTabColorStates1.Normal = superTabItemStateColorTable1;
-            superTabLinearGradientColorTable2.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.Purple};
-            superTabItemStateColorTable2.Background = superTabLinearGradientColorTable2;
-            superTabItemStateColorTable2.Text = System.Drawing.Color.White;
-            superTabColorStates1.Selected = superTabItemStateColorTable2;
-            superTabItemColorTable1.Left = superTabColorStates1;
-            this.btnDV.TabColor = superTabItemColorTable1;
-            this.btnDV.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDV.Text = "Đơn Vị<br/>\r\n&nbsp;";
-            this.btnDV.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
-            this.btnDV.Click += new System.EventHandler(this.btnDV_Click);
-            // 
-            // pnDV
-            // 
-            this.pnDV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnDV.Location = new System.Drawing.Point(130, 0);
-            this.pnDV.Name = "pnDV";
-            this.pnDV.Size = new System.Drawing.Size(670, 492);
-            this.pnDV.TabIndex = 2;
-            this.pnDV.TabItem = this.btnDV;
-            // 
-            // btnLTD
-            // 
-            this.btnLTD.AttachedControl = this.pnLTD;
-            this.btnLTD.GlobalItem = false;
-            this.btnLTD.Name = "btnLTD";
-            this.btnLTD.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            superTabLinearGradientColorTable15.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))))};
-            superTabItemStateColorTable15.Background = superTabLinearGradientColorTable15;
-            superTabItemStateColorTable15.Text = System.Drawing.Color.White;
-            superTabColorStates8.Normal = superTabItemStateColorTable15;
-            superTabLinearGradientColorTable16.Colors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))))};
-            superTabItemStateColorTable16.Background = superTabLinearGradientColorTable16;
-            superTabItemStateColorTable16.Text = System.Drawing.Color.White;
-            superTabColorStates8.Selected = superTabItemStateColorTable16;
-            superTabItemColorTable8.Left = superTabColorStates8;
-            this.btnLTD.TabColor = superTabItemColorTable8;
-            this.btnLTD.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLTD.Text = "Loại Thực Đơn<br/>\r\n&nbsp;";
-            this.btnLTD.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
-            this.btnLTD.Click += new System.EventHandler(this.btnLTD_Click);
-            // 
-            // pnLTD
-            // 
-            this.pnLTD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnLTD.Location = new System.Drawing.Point(130, 0);
-            this.pnLTD.Name = "pnLTD";
-            this.pnLTD.Size = new System.Drawing.Size(670, 492);
-            this.pnLTD.TabIndex = 3;
-            this.pnLTD.TabItem = this.btnLTD;
-            // 
             // Ctrl_QLThucDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -414,7 +414,7 @@
             this.Controls.Add(this.superTabControl2);
             this.Controls.Add(this.Menu);
             this.Name = "Ctrl_QLThucDon";
-            this.Size = new System.Drawing.Size(800, 550);
+            this.Size = new System.Drawing.Size(800, 650);
             this.Load += new System.EventHandler(this.Ctrl_QLThucDon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).EndInit();
             this.superTabControl2.ResumeLayout(false);

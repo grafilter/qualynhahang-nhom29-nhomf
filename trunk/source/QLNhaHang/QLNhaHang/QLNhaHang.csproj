@@ -169,6 +169,12 @@
     <Compile Include="Ctrl_HeThong.Designer.cs">
       <DependentUpon>Ctrl_HeThong.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl_LienHe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_LienHe.Designer.cs">
+      <DependentUpon>Ctrl_LienHe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl_PhucVu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -283,6 +289,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_HeThong.resx">
       <DependentUpon>Ctrl_HeThong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_LienHe.resx">
+      <DependentUpon>Ctrl_LienHe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl_PhucVu.resx">
       <DependentUpon>Ctrl_PhucVu.cs</DependentUpon>
