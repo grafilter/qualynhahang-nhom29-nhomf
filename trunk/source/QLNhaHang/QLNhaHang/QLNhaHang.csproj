@@ -235,6 +235,7 @@
     <Compile Include="Ctrl_TraCuuThucDon.Designer.cs">
       <DependentUpon>Ctrl_TraCuuThucDon.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExcelProvider.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
