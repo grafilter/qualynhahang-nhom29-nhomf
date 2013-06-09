@@ -20,6 +20,11 @@ namespace QLNhaHang
 
         private void Ctrl_QLHoaDon_Load(object sender, EventArgs e)
         {
+            this.BackColor = Color.Silver;
+            labelX8.ForeColor = Color.Red;
+            lblBan.ForeColor = Color.Red;
+            lblKhuyenMai.ForeColor = Color.Red;
+            lblTongTien.ForeColor = Color.Red;
             GvDsMon.AutoGenerateColumns = false;
             GvHoaDon.AutoGenerateColumns = false;
             panelEx1.Controls.Clear();

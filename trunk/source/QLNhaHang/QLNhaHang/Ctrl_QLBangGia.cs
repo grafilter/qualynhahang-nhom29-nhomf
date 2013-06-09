@@ -138,5 +138,13 @@ namespace QLNhaHang
             txtMaThucDon.Text = GvTraCuuTD.CurrentRow.Cells[0].Value.ToString();
             pnTraCuu.Visible = false;
         }
+
+        private void pnTraCuu_ExpandedChanged(object sender, ExpandedChangeEventArgs e)
+        {
+            if (pnTraCuu.Expanded == false)
+            {
+                pnTraCuu.Visible = false;
+            }
+        }
     }
 }
